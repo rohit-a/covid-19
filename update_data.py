@@ -7,6 +7,8 @@ Created on Sat Mar 28 18:42:15 2020
 
 import pandas as pd
 
+##Global files
+
 #reading data from csv files
 df_confirmed = pd.read_csv("C:/Users/rohit/Documents/GitHub/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
 df_deaths = pd.read_csv("C:/Users/rohit/Documents/GitHub/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv")
@@ -36,3 +38,4 @@ df_master = df_master.join(df_recovered.set_index(["Province/State","Country/Reg
 
 #output csv
 df_master.to_csv("covid-19 combined data.csv")
+
