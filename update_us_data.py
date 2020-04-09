@@ -36,7 +36,7 @@ sumConfPost = sum(df_us_combined["#Confirmed"])
 sumDeathPost = sum(df_us_combined["#Deaths"])
 
 #Removing Extra columns. Renaming Columns
-df = df_us_combined[output_columns]
+df_us_combined = df_us_combined[output_columns]
 
 #Writing CSV
 if sumConfPre == sumConfPost and sumDeathPre == sumDeathPost:
