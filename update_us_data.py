@@ -6,10 +6,10 @@ Created on Tue Mar 31 14:08:41 2020
 """
 
 import pandas as pd
+
+group_key_columns = ["Admin2","Province_State","Country_Region","Date","Lat","Long_"]
 pivot_key_columns = ["UID","iso2","iso3","code3","FIPS","Admin2","Province_State","Country_Region","Lat","Long_","Combined_Key"]
-group_key_columns = pivot_key_columns.copy()
-group_key_columns.append("Date")
-output_columns = [""]
+output_columns = ["#Confirmed","#Deaths"]
 
 #Reading csv files
 df_us_confirmed = pd.read_csv("C:/Users/rohit/Documents/GitHub/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv")
@@ -35,8 +35,13 @@ df_us_combined = df_us_combined.groupby(group_key_columns).sum()
 sumConfPost = sum(df_us_combined["#Confirmed"])
 sumDeathPost = sum(df_us_combined["#Deaths"])
 
+#Removing Extra columns. Renaming Columns
+df = df_us_combined[output_columns]
 
-
+#Writing CSV
 if sumConfPre == sumConfPost and sumDeathPre == sumDeathPost:
+    print("Writing CSV")
     df_us_combined.to_csv("US covid-19 combined data.csv")
+else:
+    print("ERROR: Controlled Totals do not match") 
 
