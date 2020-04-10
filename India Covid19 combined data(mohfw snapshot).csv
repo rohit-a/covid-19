@@ -1,33 +1,831 @@
 ,S_no,Date,Country,State,Confirmed,Recovered,Deaths,As_Of_Date
-0,0,2020-04-10,India,India,6039,515,206,"as on : 10 April 2020, 17:00 GMT+5:30"
-1,1,2020-04-10,India,Andhra Pradesh,363,7,6,"as on : 10 April 2020, 17:00 GMT+5:30"
-2,2,2020-04-10,India,Andaman and Nicobar Islands,11,0,0,"as on : 10 April 2020, 17:00 GMT+5:30"
-3,3,2020-04-10,India,Arunachal Pradesh,1,0,0,"as on : 10 April 2020, 17:00 GMT+5:30"
-4,4,2020-04-10,India,Assam,29,0,0,"as on : 10 April 2020, 17:00 GMT+5:30"
-5,5,2020-04-10,India,Bihar,60,0,1,"as on : 10 April 2020, 17:00 GMT+5:30"
-6,6,2020-04-10,India,Chandigarh,18,7,0,"as on : 10 April 2020, 17:00 GMT+5:30"
-7,7,2020-04-10,India,Chhattisgarh,10,9,0,"as on : 10 April 2020, 17:00 GMT+5:30"
-8,8,2020-04-10,India,Delhi,898,25,13,"as on : 10 April 2020, 17:00 GMT+5:30"
-9,9,2020-04-10,India,Goa,7,1,0,"as on : 10 April 2020, 17:00 GMT+5:30"
-10,10,2020-04-10,India,Gujarat,241,26,17,"as on : 10 April 2020, 17:00 GMT+5:30"
-11,11,2020-04-10,India,Haryana,169,29,3,"as on : 10 April 2020, 17:00 GMT+5:30"
-12,12,2020-04-10,India,Himachal Pradesh,28,6,1,"as on : 10 April 2020, 17:00 GMT+5:30"
-13,13,2020-04-10,India,Jammu and Kashmir,184,6,4,"as on : 10 April 2020, 17:00 GMT+5:30"
-14,14,2020-04-10,India,Jharkhand,13,0,1,"as on : 10 April 2020, 17:00 GMT+5:30"
-15,15,2020-04-10,India,Karnataka,197,30,6,"as on : 10 April 2020, 17:00 GMT+5:30"
-16,16,2020-04-10,India,Kerala,357,96,2,"as on : 10 April 2020, 17:00 GMT+5:30"
-17,17,2020-04-10,India,Ladakh,15,10,0,"as on : 10 April 2020, 17:00 GMT+5:30"
-18,18,2020-04-10,India,Madhya Pradesh,259,0,16,"as on : 10 April 2020, 17:00 GMT+5:30"
-19,19,2020-04-10,India,Maharashtra,1364,125,97,"as on : 10 April 2020, 17:00 GMT+5:30"
-20,20,2020-04-10,India,Manipur,2,1,0,"as on : 10 April 2020, 17:00 GMT+5:30"
-21,21,2020-04-10,India,Mizoram,1,0,0,"as on : 10 April 2020, 17:00 GMT+5:30"
-22,22,2020-04-10,India,Odisha,44,2,1,"as on : 10 April 2020, 17:00 GMT+5:30"
-23,23,2020-04-10,India,Puducherry,5,1,0,"as on : 10 April 2020, 17:00 GMT+5:30"
-24,24,2020-04-10,India,Punjab,132,5,11,"as on : 10 April 2020, 17:00 GMT+5:30"
-25,25,2020-04-10,India,Rajasthan,463,21,3,"as on : 10 April 2020, 17:00 GMT+5:30"
-26,26,2020-04-10,India,Tamil Nadu,834,21,8,"as on : 10 April 2020, 17:00 GMT+5:30"
-27,27,2020-04-10,India,Telengana,473,35,7,"as on : 10 April 2020, 17:00 GMT+5:30"
-28,28,2020-04-10,India,Tripura,1,0,0,"as on : 10 April 2020, 17:00 GMT+5:30"
-29,29,2020-04-10,India,Uttarakhand,35,5,0,"as on : 10 April 2020, 17:00 GMT+5:30"
-30,30,2020-04-10,India,Uttar Pradesh,431,32,4,"as on : 10 April 2020, 17:00 GMT+5:30"
-31,31,2020-04-10,India,West Bengal,116,16,5,"as on : 10 April 2020, 17:00 GMT+5:30"
+0,1,2020-03-12,India,Andhra Pradesh,1,0,0,Hist Update: 10th Apr 2020
+1,2,2020-03-13,India,Andhra Pradesh,1,0,0,Hist Update: 10th Apr 2020
+2,3,2020-03-14,India,Andhra Pradesh,1,0,0,Hist Update: 10th Apr 2020
+3,4,2020-03-15,India,Andhra Pradesh,1,0,0,Hist Update: 10th Apr 2020
+4,5,2020-03-16,India,Andhra Pradesh,1,0,0,Hist Update: 10th Apr 2020
+5,6,2020-03-17,India,Andhra Pradesh,1,0,0,Hist Update: 10th Apr 2020
+6,7,2020-03-18,India,Andhra Pradesh,1,0,0,Hist Update: 10th Apr 2020
+7,8,2020-03-19,India,Andhra Pradesh,2,0,0,Hist Update: 10th Apr 2020
+8,9,2020-03-20,India,Andhra Pradesh,3,0,0,Hist Update: 10th Apr 2020
+9,10,2020-03-21,India,Andhra Pradesh,3,0,0,Hist Update: 10th Apr 2020
+10,11,2020-03-22,India,Andhra Pradesh,5,0,0,Hist Update: 10th Apr 2020
+11,12,2020-03-23,India,Andhra Pradesh,7,0,0,Hist Update: 10th Apr 2020
+12,13,2020-03-24,India,Andhra Pradesh,8,0,0,Hist Update: 10th Apr 2020
+13,14,2020-03-25,India,Andhra Pradesh,9,1,0,Hist Update: 10th Apr 2020
+14,15,2020-03-26,India,Andhra Pradesh,11,1,0,Hist Update: 10th Apr 2020
+15,16,2020-03-27,India,Andhra Pradesh,12,1,0,Hist Update: 10th Apr 2020
+16,17,2020-03-28,India,Andhra Pradesh,14,1,0,Hist Update: 10th Apr 2020
+17,18,2020-03-29,India,Andhra Pradesh,19,1,0,Hist Update: 10th Apr 2020
+18,19,2020-03-30,India,Andhra Pradesh,23,1,0,Hist Update: 10th Apr 2020
+19,20,2020-03-31,India,Andhra Pradesh,40,1,0,Hist Update: 10th Apr 2020
+20,21,2020-04-01,India,Andhra Pradesh,83,1,0,Hist Update: 10th Apr 2020
+21,22,2020-04-02,India,Andhra Pradesh,86,1,1,Hist Update: 10th Apr 2020
+22,23,2020-04-03,India,Andhra Pradesh,132,1,1,Hist Update: 10th Apr 2020
+23,24,2020-04-04,India,Andhra Pradesh,161,1,1,Hist Update: 10th Apr 2020
+24,25,2020-04-05,India,Andhra Pradesh,190,1,1,Hist Update: 10th Apr 2020
+25,26,2020-04-06,India,Andhra Pradesh,226,1,3,Hist Update: 10th Apr 2020
+26,27,2020-04-07,India,Andhra Pradesh,266,1,3,Hist Update: 10th Apr 2020
+27,28,2020-04-08,India,Andhra Pradesh,305,5,4,Hist Update: 10th Apr 2020
+28,29,2020-04-09,India,Andhra Pradesh,348,6,4,Hist Update: 10th Apr 2020
+29,1,2020-03-26,India,Andaman and Nicobar Islands,1,0,0,Hist Update: 10th Apr 2020
+30,2,2020-03-27,India,Andaman and Nicobar Islands,1,0,0,Hist Update: 10th Apr 2020
+31,3,2020-03-28,India,Andaman and Nicobar Islands,6,0,0,Hist Update: 10th Apr 2020
+32,4,2020-03-29,India,Andaman and Nicobar Islands,9,0,0,Hist Update: 10th Apr 2020
+33,5,2020-03-30,India,Andaman and Nicobar Islands,9,0,0,Hist Update: 10th Apr 2020
+34,6,2020-03-31,India,Andaman and Nicobar Islands,10,0,0,Hist Update: 10th Apr 2020
+35,7,2020-04-01,India,Andaman and Nicobar Islands,10,0,0,Hist Update: 10th Apr 2020
+36,8,2020-04-02,India,Andaman and Nicobar Islands,10,0,0,Hist Update: 10th Apr 2020
+37,9,2020-04-03,India,Andaman and Nicobar Islands,10,0,0,Hist Update: 10th Apr 2020
+38,10,2020-04-04,India,Andaman and Nicobar Islands,10,0,0,Hist Update: 10th Apr 2020
+39,11,2020-04-05,India,Andaman and Nicobar Islands,10,0,0,Hist Update: 10th Apr 2020
+40,12,2020-04-06,India,Andaman and Nicobar Islands,10,0,0,Hist Update: 10th Apr 2020
+41,13,2020-04-07,India,Andaman and Nicobar Islands,10,0,0,Hist Update: 10th Apr 2020
+42,14,2020-04-08,India,Andaman and Nicobar Islands,10,0,0,Hist Update: 10th Apr 2020
+43,15,2020-04-09,India,Andaman and Nicobar Islands,11,0,0,Hist Update: 10th Apr 2020
+44,1,2020-04-03,India,Arunachal Pradesh,1,0,0,Hist Update: 10th Apr 2020
+45,2,2020-04-04,India,Arunachal Pradesh,1,0,0,Hist Update: 10th Apr 2020
+46,3,2020-04-05,India,Arunachal Pradesh,1,0,0,Hist Update: 10th Apr 2020
+47,4,2020-04-06,India,Arunachal Pradesh,1,0,0,Hist Update: 10th Apr 2020
+48,5,2020-04-07,India,Arunachal Pradesh,1,0,0,Hist Update: 10th Apr 2020
+49,6,2020-04-08,India,Arunachal Pradesh,1,0,0,Hist Update: 10th Apr 2020
+50,7,2020-04-09,India,Arunachal Pradesh,1,0,0,Hist Update: 10th Apr 2020
+51,1,2020-04-01,India,Assam,1,0,0,Hist Update: 10th Apr 2020
+52,2,2020-04-02,India,Assam,5,0,0,Hist Update: 10th Apr 2020
+53,3,2020-04-03,India,Assam,16,0,0,Hist Update: 10th Apr 2020
+54,4,2020-04-04,India,Assam,24,0,0,Hist Update: 10th Apr 2020
+55,5,2020-04-05,India,Assam,26,0,0,Hist Update: 10th Apr 2020
+56,6,2020-04-06,India,Assam,26,0,0,Hist Update: 10th Apr 2020
+57,7,2020-04-07,India,Assam,26,0,0,Hist Update: 10th Apr 2020
+58,8,2020-04-08,India,Assam,27,0,0,Hist Update: 10th Apr 2020
+59,9,2020-04-09,India,Assam,28,0,0,Hist Update: 10th Apr 2020
+60,1,2020-03-22,India,Bihar,2,0,1,Hist Update: 10th Apr 2020
+61,2,2020-03-23,India,Bihar,2,0,1,Hist Update: 10th Apr 2020
+62,3,2020-03-24,India,Bihar,3,0,1,Hist Update: 10th Apr 2020
+63,4,2020-03-25,India,Bihar,4,0,1,Hist Update: 10th Apr 2020
+64,5,2020-03-26,India,Bihar,6,0,1,Hist Update: 10th Apr 2020
+65,6,2020-03-27,India,Bihar,6,0,1,Hist Update: 10th Apr 2020
+66,7,2020-03-28,India,Bihar,9,0,1,Hist Update: 10th Apr 2020
+67,8,2020-03-29,India,Bihar,11,0,1,Hist Update: 10th Apr 2020
+68,9,2020-03-30,India,Bihar,15,0,1,Hist Update: 10th Apr 2020
+69,10,2020-03-31,India,Bihar,15,0,1,Hist Update: 10th Apr 2020
+70,11,2020-04-01,India,Bihar,23,0,1,Hist Update: 10th Apr 2020
+71,12,2020-04-02,India,Bihar,24,0,1,Hist Update: 10th Apr 2020
+72,13,2020-04-03,India,Bihar,29,0,1,Hist Update: 10th Apr 2020
+73,14,2020-04-04,India,Bihar,30,0,1,Hist Update: 10th Apr 2020
+74,15,2020-04-05,India,Bihar,30,0,1,Hist Update: 10th Apr 2020
+75,16,2020-04-06,India,Bihar,32,0,1,Hist Update: 10th Apr 2020
+76,17,2020-04-07,India,Bihar,32,0,1,Hist Update: 10th Apr 2020
+77,18,2020-04-08,India,Bihar,38,0,1,Hist Update: 10th Apr 2020
+78,19,2020-04-09,India,Bihar,39,0,1,Hist Update: 10th Apr 2020
+79,1,2020-03-19,India,Chandigarh,1,0,0,Hist Update: 10th Apr 2020
+80,2,2020-03-20,India,Chandigarh,1,0,0,Hist Update: 10th Apr 2020
+81,3,2020-03-21,India,Chandigarh,1,0,0,Hist Update: 10th Apr 2020
+82,4,2020-03-22,India,Chandigarh,5,0,0,Hist Update: 10th Apr 2020
+83,5,2020-03-23,India,Chandigarh,6,0,0,Hist Update: 10th Apr 2020
+84,6,2020-03-24,India,Chandigarh,7,0,0,Hist Update: 10th Apr 2020
+85,7,2020-03-25,India,Chandigarh,7,0,0,Hist Update: 10th Apr 2020
+86,8,2020-03-26,India,Chandigarh,7,0,0,Hist Update: 10th Apr 2020
+87,9,2020-03-27,India,Chandigarh,7,0,0,Hist Update: 10th Apr 2020
+88,10,2020-03-28,India,Chandigarh,8,0,0,Hist Update: 10th Apr 2020
+89,11,2020-03-29,India,Chandigarh,8,0,0,Hist Update: 10th Apr 2020
+90,12,2020-03-30,India,Chandigarh,8,0,0,Hist Update: 10th Apr 2020
+91,13,2020-03-31,India,Chandigarh,13,0,0,Hist Update: 10th Apr 2020
+92,14,2020-04-01,India,Chandigarh,16,0,0,Hist Update: 10th Apr 2020
+93,15,2020-04-02,India,Chandigarh,16,0,0,Hist Update: 10th Apr 2020
+94,16,2020-04-03,India,Chandigarh,18,0,0,Hist Update: 10th Apr 2020
+95,17,2020-04-04,India,Chandigarh,18,0,0,Hist Update: 10th Apr 2020
+96,18,2020-04-05,India,Chandigarh,18,0,0,Hist Update: 10th Apr 2020
+97,19,2020-04-06,India,Chandigarh,18,0,0,Hist Update: 10th Apr 2020
+98,20,2020-04-07,India,Chandigarh,18,7,0,Hist Update: 10th Apr 2020
+99,21,2020-04-08,India,Chandigarh,18,7,0,Hist Update: 10th Apr 2020
+100,22,2020-04-09,India,Chandigarh,18,7,0,Hist Update: 10th Apr 2020
+101,1,2020-03-19,India,Chhattisgarh,1,0,0,Hist Update: 10th Apr 2020
+102,2,2020-03-20,India,Chhattisgarh,1,0,0,Hist Update: 10th Apr 2020
+103,3,2020-03-21,India,Chhattisgarh,1,0,0,Hist Update: 10th Apr 2020
+104,4,2020-03-22,India,Chhattisgarh,1,0,0,Hist Update: 10th Apr 2020
+105,5,2020-03-23,India,Chhattisgarh,1,0,0,Hist Update: 10th Apr 2020
+106,6,2020-03-24,India,Chhattisgarh,1,0,0,Hist Update: 10th Apr 2020
+107,7,2020-03-25,India,Chhattisgarh,1,0,0,Hist Update: 10th Apr 2020
+108,8,2020-03-26,India,Chhattisgarh,6,0,0,Hist Update: 10th Apr 2020
+109,9,2020-03-27,India,Chhattisgarh,6,0,0,Hist Update: 10th Apr 2020
+110,10,2020-03-28,India,Chhattisgarh,6,0,0,Hist Update: 10th Apr 2020
+111,11,2020-03-29,India,Chhattisgarh,7,0,0,Hist Update: 10th Apr 2020
+112,12,2020-03-30,India,Chhattisgarh,7,0,0,Hist Update: 10th Apr 2020
+113,13,2020-03-31,India,Chhattisgarh,8,0,0,Hist Update: 10th Apr 2020
+114,14,2020-04-01,India,Chhattisgarh,9,2,0,Hist Update: 10th Apr 2020
+115,15,2020-04-02,India,Chhattisgarh,9,2,0,Hist Update: 10th Apr 2020
+116,16,2020-04-03,India,Chhattisgarh,9,3,0,Hist Update: 10th Apr 2020
+117,17,2020-04-04,India,Chhattisgarh,9,3,0,Hist Update: 10th Apr 2020
+118,18,2020-04-05,India,Chhattisgarh,9,3,0,Hist Update: 10th Apr 2020
+119,19,2020-04-06,India,Chhattisgarh,10,8,0,Hist Update: 10th Apr 2020
+120,20,2020-04-07,India,Chhattisgarh,10,9,0,Hist Update: 10th Apr 2020
+121,21,2020-04-08,India,Chhattisgarh,10,9,0,Hist Update: 10th Apr 2020
+122,22,2020-04-09,India,Chhattisgarh,10,9,0,Hist Update: 10th Apr 2020
+123,1,2020-03-02,India,Delhi,1,0,0,Hist Update: 10th Apr 2020
+124,2,2020-03-03,India,Delhi,1,0,0,Hist Update: 10th Apr 2020
+125,3,2020-03-04,India,Delhi,1,0,0,Hist Update: 10th Apr 2020
+126,4,2020-03-05,India,Delhi,2,0,0,Hist Update: 10th Apr 2020
+127,5,2020-03-06,India,Delhi,3,0,0,Hist Update: 10th Apr 2020
+128,6,2020-03-07,India,Delhi,3,0,0,Hist Update: 10th Apr 2020
+129,7,2020-03-08,India,Delhi,3,0,0,Hist Update: 10th Apr 2020
+130,8,2020-03-09,India,Delhi,4,0,0,Hist Update: 10th Apr 2020
+131,9,2020-03-10,India,Delhi,4,0,0,Hist Update: 10th Apr 2020
+132,10,2020-03-11,India,Delhi,5,0,0,Hist Update: 10th Apr 2020
+133,11,2020-03-12,India,Delhi,6,0,0,Hist Update: 10th Apr 2020
+134,12,2020-03-13,India,Delhi,6,0,0,Hist Update: 10th Apr 2020
+135,13,2020-03-14,India,Delhi,7,1,1,Hist Update: 10th Apr 2020
+136,14,2020-03-15,India,Delhi,7,2,1,Hist Update: 10th Apr 2020
+137,15,2020-03-16,India,Delhi,7,2,1,Hist Update: 10th Apr 2020
+138,16,2020-03-17,India,Delhi,8,2,1,Hist Update: 10th Apr 2020
+139,17,2020-03-18,India,Delhi,10,2,1,Hist Update: 10th Apr 2020
+140,18,2020-03-19,India,Delhi,12,3,1,Hist Update: 10th Apr 2020
+141,19,2020-03-20,India,Delhi,17,5,1,Hist Update: 10th Apr 2020
+142,20,2020-03-21,India,Delhi,26,5,1,Hist Update: 10th Apr 2020
+143,21,2020-03-22,India,Delhi,29,5,1,Hist Update: 10th Apr 2020
+144,22,2020-03-23,India,Delhi,29,5,1,Hist Update: 10th Apr 2020
+145,23,2020-03-24,India,Delhi,30,6,1,Hist Update: 10th Apr 2020
+146,24,2020-03-25,India,Delhi,31,6,1,Hist Update: 10th Apr 2020
+147,25,2020-03-26,India,Delhi,36,6,1,Hist Update: 10th Apr 2020
+148,26,2020-03-27,India,Delhi,36,6,1,Hist Update: 10th Apr 2020
+149,27,2020-03-28,India,Delhi,39,6,1,Hist Update: 10th Apr 2020
+150,28,2020-03-29,India,Delhi,49,6,2,Hist Update: 10th Apr 2020
+151,29,2020-03-30,India,Delhi,87,6,2,Hist Update: 10th Apr 2020
+152,30,2020-03-31,India,Delhi,97,6,2,Hist Update: 10th Apr 2020
+153,31,2020-04-01,India,Delhi,152,6,2,Hist Update: 10th Apr 2020
+154,32,2020-04-02,India,Delhi,219,8,4,Hist Update: 10th Apr 2020
+155,33,2020-04-03,India,Delhi,219,8,4,Hist Update: 10th Apr 2020
+156,34,2020-04-04,India,Delhi,445,15,6,Hist Update: 10th Apr 2020
+157,35,2020-04-05,India,Delhi,503,18,7,Hist Update: 10th Apr 2020
+158,36,2020-04-06,India,Delhi,523,19,7,Hist Update: 10th Apr 2020
+159,37,2020-04-07,India,Delhi,576,21,7,Hist Update: 10th Apr 2020
+160,38,2020-04-08,India,Delhi,576,21,9,Hist Update: 10th Apr 2020
+161,39,2020-04-09,India,Delhi,669,21,9,Hist Update: 10th Apr 2020
+162,1,2020-03-26,India,Goa,3,0,0,Hist Update: 10th Apr 2020
+163,2,2020-03-27,India,Goa,3,0,0,Hist Update: 10th Apr 2020
+164,3,2020-03-28,India,Goa,3,0,0,Hist Update: 10th Apr 2020
+165,4,2020-03-29,India,Goa,5,0,0,Hist Update: 10th Apr 2020
+166,5,2020-03-30,India,Goa,5,0,0,Hist Update: 10th Apr 2020
+167,6,2020-03-31,India,Goa,5,0,0,Hist Update: 10th Apr 2020
+168,7,2020-04-01,India,Goa,5,0,0,Hist Update: 10th Apr 2020
+169,8,2020-04-02,India,Goa,5,0,0,Hist Update: 10th Apr 2020
+170,9,2020-04-03,India,Goa,6,0,0,Hist Update: 10th Apr 2020
+171,10,2020-04-04,India,Goa,7,0,0,Hist Update: 10th Apr 2020
+172,11,2020-04-05,India,Goa,7,0,0,Hist Update: 10th Apr 2020
+173,12,2020-04-06,India,Goa,7,0,0,Hist Update: 10th Apr 2020
+174,13,2020-04-07,India,Goa,7,0,0,Hist Update: 10th Apr 2020
+175,14,2020-04-08,India,Goa,7,0,0,Hist Update: 10th Apr 2020
+176,15,2020-04-09,India,Goa,7,0,0,Hist Update: 10th Apr 2020
+177,1,2020-03-20,India,Gujarat,5,0,0,Hist Update: 10th Apr 2020
+178,2,2020-03-21,India,Gujarat,7,0,0,Hist Update: 10th Apr 2020
+179,3,2020-03-22,India,Gujarat,18,0,1,Hist Update: 10th Apr 2020
+180,4,2020-03-23,India,Gujarat,29,0,1,Hist Update: 10th Apr 2020
+181,5,2020-03-24,India,Gujarat,33,0,1,Hist Update: 10th Apr 2020
+182,6,2020-03-25,India,Gujarat,38,0,1,Hist Update: 10th Apr 2020
+183,7,2020-03-26,India,Gujarat,43,0,3,Hist Update: 10th Apr 2020
+184,8,2020-03-27,India,Gujarat,43,0,3,Hist Update: 10th Apr 2020
+185,9,2020-03-28,India,Gujarat,45,0,3,Hist Update: 10th Apr 2020
+186,10,2020-03-29,India,Gujarat,58,1,5,Hist Update: 10th Apr 2020
+187,11,2020-03-30,India,Gujarat,69,1,6,Hist Update: 10th Apr 2020
+188,12,2020-03-31,India,Gujarat,73,3,6,Hist Update: 10th Apr 2020
+189,13,2020-04-01,India,Gujarat,82,5,6,Hist Update: 10th Apr 2020
+190,14,2020-04-02,India,Gujarat,87,8,7,Hist Update: 10th Apr 2020
+191,15,2020-04-03,India,Gujarat,95,10,8,Hist Update: 10th Apr 2020
+192,16,2020-04-04,India,Gujarat,105,14,10,Hist Update: 10th Apr 2020
+193,17,2020-04-05,India,Gujarat,122,18,11,Hist Update: 10th Apr 2020
+194,18,2020-04-06,India,Gujarat,144,22,12,Hist Update: 10th Apr 2020
+195,19,2020-04-07,India,Gujarat,165,25,13,Hist Update: 10th Apr 2020
+196,20,2020-04-08,India,Gujarat,165,25,13,Hist Update: 10th Apr 2020
+197,21,2020-04-09,India,Gujarat,179,25,16,Hist Update: 10th Apr 2020
+198,1,2020-03-04,India,Haryana,2,0,0,Hist Update: 10th Apr 2020
+199,2,2020-03-05,India,Haryana,2,0,0,Hist Update: 10th Apr 2020
+200,3,2020-03-06,India,Haryana,2,0,0,Hist Update: 10th Apr 2020
+201,4,2020-03-07,India,Haryana,2,0,0,Hist Update: 10th Apr 2020
+202,5,2020-03-08,India,Haryana,2,0,0,Hist Update: 10th Apr 2020
+203,6,2020-03-09,India,Haryana,2,0,0,Hist Update: 10th Apr 2020
+204,7,2020-03-10,India,Haryana,2,0,0,Hist Update: 10th Apr 2020
+205,8,2020-03-11,India,Haryana,14,0,0,Hist Update: 10th Apr 2020
+206,9,2020-03-12,India,Haryana,14,0,0,Hist Update: 10th Apr 2020
+207,10,2020-03-13,India,Haryana,14,0,0,Hist Update: 10th Apr 2020
+208,11,2020-03-14,India,Haryana,14,0,0,Hist Update: 10th Apr 2020
+209,12,2020-03-15,India,Haryana,14,0,0,Hist Update: 10th Apr 2020
+210,13,2020-03-16,India,Haryana,14,0,0,Hist Update: 10th Apr 2020
+211,14,2020-03-17,India,Haryana,15,0,0,Hist Update: 10th Apr 2020
+212,15,2020-03-18,India,Haryana,17,0,0,Hist Update: 10th Apr 2020
+213,16,2020-03-19,India,Haryana,17,0,0,Hist Update: 10th Apr 2020
+214,17,2020-03-20,India,Haryana,17,0,0,Hist Update: 10th Apr 2020
+215,18,2020-03-21,India,Haryana,17,0,0,Hist Update: 10th Apr 2020
+216,19,2020-03-22,India,Haryana,21,0,0,Hist Update: 10th Apr 2020
+217,20,2020-03-23,India,Haryana,26,0,0,Hist Update: 10th Apr 2020
+218,21,2020-03-24,India,Haryana,28,11,0,Hist Update: 10th Apr 2020
+219,22,2020-03-25,India,Haryana,28,11,0,Hist Update: 10th Apr 2020
+220,23,2020-03-26,India,Haryana,30,11,0,Hist Update: 10th Apr 2020
+221,24,2020-03-27,India,Haryana,30,11,0,Hist Update: 10th Apr 2020
+222,25,2020-03-28,India,Haryana,33,12,0,Hist Update: 10th Apr 2020
+223,26,2020-03-29,India,Haryana,33,17,0,Hist Update: 10th Apr 2020
+224,27,2020-03-30,India,Haryana,36,18,0,Hist Update: 10th Apr 2020
+225,28,2020-03-31,India,Haryana,40,21,0,Hist Update: 10th Apr 2020
+226,29,2020-04-01,India,Haryana,43,21,0,Hist Update: 10th Apr 2020
+227,30,2020-04-02,India,Haryana,43,21,0,Hist Update: 10th Apr 2020
+228,31,2020-04-03,India,Haryana,49,24,0,Hist Update: 10th Apr 2020
+229,32,2020-04-04,India,Haryana,49,24,0,Hist Update: 10th Apr 2020
+230,33,2020-04-05,India,Haryana,59,25,1,Hist Update: 10th Apr 2020
+231,34,2020-04-06,India,Haryana,84,25,1,Hist Update: 10th Apr 2020
+232,35,2020-04-07,India,Haryana,90,25,1,Hist Update: 10th Apr 2020
+233,36,2020-04-08,India,Haryana,147,28,3,Hist Update: 10th Apr 2020
+234,37,2020-04-09,India,Haryana,169,29,3,Hist Update: 10th Apr 2020
+235,1,2020-03-21,India,Himachal Pradesh,2,0,0,Hist Update: 10th Apr 2020
+236,2,2020-03-22,India,Himachal Pradesh,2,0,0,Hist Update: 10th Apr 2020
+237,3,2020-03-23,India,Himachal Pradesh,2,0,0,Hist Update: 10th Apr 2020
+238,4,2020-03-24,India,Himachal Pradesh,3,0,1,Hist Update: 10th Apr 2020
+239,5,2020-03-25,India,Himachal Pradesh,3,0,1,Hist Update: 10th Apr 2020
+240,6,2020-03-26,India,Himachal Pradesh,3,0,1,Hist Update: 10th Apr 2020
+241,7,2020-03-27,India,Himachal Pradesh,3,0,1,Hist Update: 10th Apr 2020
+242,8,2020-03-28,India,Himachal Pradesh,3,0,1,Hist Update: 10th Apr 2020
+243,9,2020-03-29,India,Himachal Pradesh,3,0,1,Hist Update: 10th Apr 2020
+244,10,2020-03-30,India,Himachal Pradesh,3,0,1,Hist Update: 10th Apr 2020
+245,11,2020-03-31,India,Himachal Pradesh,3,0,1,Hist Update: 10th Apr 2020
+246,12,2020-04-01,India,Himachal Pradesh,3,0,1,Hist Update: 10th Apr 2020
+247,13,2020-04-02,India,Himachal Pradesh,3,1,1,Hist Update: 10th Apr 2020
+248,14,2020-04-03,India,Himachal Pradesh,6,1,1,Hist Update: 10th Apr 2020
+249,15,2020-04-04,India,Himachal Pradesh,6,1,1,Hist Update: 10th Apr 2020
+250,16,2020-04-05,India,Himachal Pradesh,6,1,1,Hist Update: 10th Apr 2020
+251,17,2020-04-06,India,Himachal Pradesh,13,2,1,Hist Update: 10th Apr 2020
+252,18,2020-04-07,India,Himachal Pradesh,13,2,1,Hist Update: 10th Apr 2020
+253,19,2020-04-08,India,Himachal Pradesh,18,2,1,Hist Update: 10th Apr 2020
+254,20,2020-04-09,India,Himachal Pradesh,18,2,1,Hist Update: 10th Apr 2020
+255,1,2020-03-09,India,Jammu and Kashmir,1,0,0,Hist Update: 10th Apr 2020
+256,2,2020-03-10,India,Jammu and Kashmir,1,0,0,Hist Update: 10th Apr 2020
+257,3,2020-03-11,India,Jammu and Kashmir,1,0,0,Hist Update: 10th Apr 2020
+258,4,2020-03-12,India,Jammu and Kashmir,1,0,0,Hist Update: 10th Apr 2020
+259,5,2020-03-13,India,Jammu and Kashmir,1,0,0,Hist Update: 10th Apr 2020
+260,6,2020-03-14,India,Jammu and Kashmir,2,0,0,Hist Update: 10th Apr 2020
+261,7,2020-03-15,India,Jammu and Kashmir,2,0,0,Hist Update: 10th Apr 2020
+262,8,2020-03-16,India,Jammu and Kashmir,3,0,0,Hist Update: 10th Apr 2020
+263,9,2020-03-17,India,Jammu and Kashmir,3,0,0,Hist Update: 10th Apr 2020
+264,10,2020-03-18,India,Jammu and Kashmir,3,0,0,Hist Update: 10th Apr 2020
+265,11,2020-03-19,India,Jammu and Kashmir,4,0,0,Hist Update: 10th Apr 2020
+266,12,2020-03-20,India,Jammu and Kashmir,4,0,0,Hist Update: 10th Apr 2020
+267,13,2020-03-21,India,Jammu and Kashmir,4,0,0,Hist Update: 10th Apr 2020
+268,14,2020-03-22,India,Jammu and Kashmir,4,0,0,Hist Update: 10th Apr 2020
+269,15,2020-03-23,India,Jammu and Kashmir,4,0,0,Hist Update: 10th Apr 2020
+270,16,2020-03-24,India,Jammu and Kashmir,4,0,0,Hist Update: 10th Apr 2020
+271,17,2020-03-25,India,Jammu and Kashmir,7,1,0,Hist Update: 10th Apr 2020
+272,18,2020-03-26,India,Jammu and Kashmir,13,1,0,Hist Update: 10th Apr 2020
+273,19,2020-03-27,India,Jammu and Kashmir,13,1,1,Hist Update: 10th Apr 2020
+274,20,2020-03-28,India,Jammu and Kashmir,20,1,1,Hist Update: 10th Apr 2020
+275,21,2020-03-29,India,Jammu and Kashmir,31,1,2,Hist Update: 10th Apr 2020
+276,22,2020-03-30,India,Jammu and Kashmir,48,2,2,Hist Update: 10th Apr 2020
+277,23,2020-03-31,India,Jammu and Kashmir,54,2,2,Hist Update: 10th Apr 2020
+278,24,2020-04-01,India,Jammu and Kashmir,62,2,2,Hist Update: 10th Apr 2020
+279,25,2020-04-02,India,Jammu and Kashmir,62,2,2,Hist Update: 10th Apr 2020
+280,26,2020-04-03,India,Jammu and Kashmir,75,3,2,Hist Update: 10th Apr 2020
+281,27,2020-04-04,India,Jammu and Kashmir,75,3,2,Hist Update: 10th Apr 2020
+282,28,2020-04-05,India,Jammu and Kashmir,106,4,2,Hist Update: 10th Apr 2020
+283,29,2020-04-06,India,Jammu and Kashmir,109,4,2,Hist Update: 10th Apr 2020
+284,30,2020-04-07,India,Jammu and Kashmir,116,4,2,Hist Update: 10th Apr 2020
+285,31,2020-04-08,India,Jammu and Kashmir,116,4,2,Hist Update: 10th Apr 2020
+286,32,2020-04-09,India,Jammu and Kashmir,158,4,4,Hist Update: 10th Apr 2020
+287,1,2020-04-01,India,Jharkhand,1,0,0,Hist Update: 10th Apr 2020
+288,2,2020-04-02,India,Jharkhand,1,0,0,Hist Update: 10th Apr 2020
+289,3,2020-04-03,India,Jharkhand,2,0,0,Hist Update: 10th Apr 2020
+290,4,2020-04-04,India,Jharkhand,2,0,0,Hist Update: 10th Apr 2020
+291,5,2020-04-05,India,Jharkhand,3,0,0,Hist Update: 10th Apr 2020
+292,6,2020-04-06,India,Jharkhand,4,0,0,Hist Update: 10th Apr 2020
+293,7,2020-04-07,India,Jharkhand,4,0,0,Hist Update: 10th Apr 2020
+294,8,2020-04-08,India,Jharkhand,4,0,0,Hist Update: 10th Apr 2020
+295,9,2020-04-09,India,Jharkhand,13,0,0,Hist Update: 10th Apr 2020
+296,1,2020-03-09,India,Karnataka,1,0,0,Hist Update: 10th Apr 2020
+297,2,2020-03-10,India,Karnataka,4,0,0,Hist Update: 10th Apr 2020
+298,3,2020-03-11,India,Karnataka,4,0,0,Hist Update: 10th Apr 2020
+299,4,2020-03-12,India,Karnataka,4,0,0,Hist Update: 10th Apr 2020
+300,5,2020-03-13,India,Karnataka,6,0,1,Hist Update: 10th Apr 2020
+301,6,2020-03-14,India,Karnataka,6,0,1,Hist Update: 10th Apr 2020
+302,7,2020-03-15,India,Karnataka,6,0,1,Hist Update: 10th Apr 2020
+303,8,2020-03-16,India,Karnataka,6,0,1,Hist Update: 10th Apr 2020
+304,9,2020-03-17,India,Karnataka,11,0,1,Hist Update: 10th Apr 2020
+305,10,2020-03-18,India,Karnataka,11,0,1,Hist Update: 10th Apr 2020
+306,11,2020-03-19,India,Karnataka,14,0,1,Hist Update: 10th Apr 2020
+307,12,2020-03-20,India,Karnataka,15,1,1,Hist Update: 10th Apr 2020
+308,13,2020-03-21,India,Karnataka,15,1,1,Hist Update: 10th Apr 2020
+309,14,2020-03-22,India,Karnataka,26,2,1,Hist Update: 10th Apr 2020
+310,15,2020-03-23,India,Karnataka,33,2,1,Hist Update: 10th Apr 2020
+311,16,2020-03-24,India,Karnataka,37,3,1,Hist Update: 10th Apr 2020
+312,17,2020-03-25,India,Karnataka,41,3,1,Hist Update: 10th Apr 2020
+313,18,2020-03-26,India,Karnataka,55,3,2,Hist Update: 10th Apr 2020
+314,19,2020-03-27,India,Karnataka,55,3,2,Hist Update: 10th Apr 2020
+315,20,2020-03-28,India,Karnataka,55,3,2,Hist Update: 10th Apr 2020
+316,21,2020-03-29,India,Karnataka,76,5,3,Hist Update: 10th Apr 2020
+317,22,2020-03-30,India,Karnataka,83,5,3,Hist Update: 10th Apr 2020
+318,23,2020-03-31,India,Karnataka,83,5,3,Hist Update: 10th Apr 2020
+319,24,2020-04-01,India,Karnataka,101,8,3,Hist Update: 10th Apr 2020
+320,25,2020-04-02,India,Karnataka,110,9,3,Hist Update: 10th Apr 2020
+321,26,2020-04-03,India,Karnataka,124,10,3,Hist Update: 10th Apr 2020
+322,27,2020-04-04,India,Karnataka,128,12,3,Hist Update: 10th Apr 2020
+323,28,2020-04-05,India,Karnataka,144,12,4,Hist Update: 10th Apr 2020
+324,29,2020-04-06,India,Karnataka,151,12,4,Hist Update: 10th Apr 2020
+325,30,2020-04-07,India,Karnataka,175,25,4,Hist Update: 10th Apr 2020
+326,31,2020-04-08,India,Karnataka,175,25,4,Hist Update: 10th Apr 2020
+327,32,2020-04-09,India,Karnataka,181,28,5,Hist Update: 10th Apr 2020
+328,1,2020-01-30,India,Kerala,1,0,0,Hist Update: 10th Apr 2020
+329,2,2020-01-31,India,Kerala,1,0,0,Hist Update: 10th Apr 2020
+330,3,2020-02-01,India,Kerala,2,0,0,Hist Update: 10th Apr 2020
+331,4,2020-02-02,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+332,5,2020-02-03,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+333,6,2020-02-04,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+334,7,2020-02-05,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+335,8,2020-02-06,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+336,9,2020-02-07,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+337,10,2020-02-08,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+338,11,2020-02-09,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+339,12,2020-02-10,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+340,13,2020-02-11,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+341,14,2020-02-12,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+342,15,2020-02-13,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+343,16,2020-02-14,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+344,17,2020-02-15,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+345,18,2020-02-16,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+346,19,2020-02-17,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+347,20,2020-02-18,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+348,21,2020-02-19,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+349,22,2020-02-20,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+350,23,2020-02-21,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+351,24,2020-02-22,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+352,25,2020-02-23,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+353,26,2020-02-24,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+354,27,2020-02-25,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+355,28,2020-02-26,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+356,29,2020-02-27,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+357,30,2020-02-28,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+358,31,2020-02-29,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+359,32,2020-03-01,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+360,33,2020-03-02,India,Kerala,3,0,0,Hist Update: 10th Apr 2020
+361,34,2020-03-03,India,Kerala,3,3,0,Hist Update: 10th Apr 2020
+362,35,2020-03-04,India,Kerala,3,3,0,Hist Update: 10th Apr 2020
+363,36,2020-03-05,India,Kerala,3,3,0,Hist Update: 10th Apr 2020
+364,37,2020-03-06,India,Kerala,3,3,0,Hist Update: 10th Apr 2020
+365,38,2020-03-07,India,Kerala,3,3,0,Hist Update: 10th Apr 2020
+366,39,2020-03-08,India,Kerala,8,3,0,Hist Update: 10th Apr 2020
+367,40,2020-03-09,India,Kerala,9,3,0,Hist Update: 10th Apr 2020
+368,41,2020-03-10,India,Kerala,15,3,0,Hist Update: 10th Apr 2020
+369,42,2020-03-11,India,Kerala,17,3,0,Hist Update: 10th Apr 2020
+370,43,2020-03-12,India,Kerala,17,3,0,Hist Update: 10th Apr 2020
+371,44,2020-03-13,India,Kerala,19,3,0,Hist Update: 10th Apr 2020
+372,45,2020-03-14,India,Kerala,19,3,0,Hist Update: 10th Apr 2020
+373,46,2020-03-15,India,Kerala,22,3,0,Hist Update: 10th Apr 2020
+374,47,2020-03-16,India,Kerala,23,3,0,Hist Update: 10th Apr 2020
+375,48,2020-03-17,India,Kerala,26,3,0,Hist Update: 10th Apr 2020
+376,49,2020-03-18,India,Kerala,27,3,0,Hist Update: 10th Apr 2020
+377,50,2020-03-19,India,Kerala,27,3,0,Hist Update: 10th Apr 2020
+378,51,2020-03-20,India,Kerala,28,3,0,Hist Update: 10th Apr 2020
+379,52,2020-03-21,India,Kerala,40,3,0,Hist Update: 10th Apr 2020
+380,53,2020-03-22,India,Kerala,52,3,0,Hist Update: 10th Apr 2020
+381,54,2020-03-23,India,Kerala,67,3,0,Hist Update: 10th Apr 2020
+382,55,2020-03-24,India,Kerala,95,4,0,Hist Update: 10th Apr 2020
+383,56,2020-03-25,India,Kerala,109,4,0,Hist Update: 10th Apr 2020
+384,57,2020-03-26,India,Kerala,118,6,0,Hist Update: 10th Apr 2020
+385,58,2020-03-27,India,Kerala,137,11,0,Hist Update: 10th Apr 2020
+386,59,2020-03-28,India,Kerala,176,11,0,Hist Update: 10th Apr 2020
+387,60,2020-03-29,India,Kerala,182,15,1,Hist Update: 10th Apr 2020
+388,61,2020-03-30,India,Kerala,202,19,1,Hist Update: 10th Apr 2020
+389,62,2020-03-31,India,Kerala,234,19,1,Hist Update: 10th Apr 2020
+390,63,2020-04-01,India,Kerala,241,23,2,Hist Update: 10th Apr 2020
+391,64,2020-04-02,India,Kerala,265,25,2,Hist Update: 10th Apr 2020
+392,65,2020-04-03,India,Kerala,286,27,2,Hist Update: 10th Apr 2020
+393,66,2020-04-04,India,Kerala,295,41,2,Hist Update: 10th Apr 2020
+394,67,2020-04-05,India,Kerala,306,49,2,Hist Update: 10th Apr 2020
+395,68,2020-04-06,India,Kerala,314,55,2,Hist Update: 10th Apr 2020
+396,69,2020-04-07,India,Kerala,327,58,2,Hist Update: 10th Apr 2020
+397,70,2020-04-08,India,Kerala,336,70,2,Hist Update: 10th Apr 2020
+398,71,2020-04-09,India,Kerala,345,83,2,Hist Update: 10th Apr 2020
+399,1,2020-03-07,India,Ladakh,2,0,0,Hist Update: 10th Apr 2020
+400,2,2020-03-08,India,Ladakh,2,0,0,Hist Update: 10th Apr 2020
+401,3,2020-03-09,India,Ladakh,2,0,0,Hist Update: 10th Apr 2020
+402,4,2020-03-10,India,Ladakh,2,0,0,Hist Update: 10th Apr 2020
+403,5,2020-03-11,India,Ladakh,2,0,0,Hist Update: 10th Apr 2020
+404,6,2020-03-12,India,Ladakh,3,0,0,Hist Update: 10th Apr 2020
+405,7,2020-03-13,India,Ladakh,3,0,0,Hist Update: 10th Apr 2020
+406,8,2020-03-14,India,Ladakh,3,0,0,Hist Update: 10th Apr 2020
+407,9,2020-03-15,India,Ladakh,3,0,0,Hist Update: 10th Apr 2020
+408,10,2020-03-16,India,Ladakh,4,0,0,Hist Update: 10th Apr 2020
+409,11,2020-03-17,India,Ladakh,6,0,0,Hist Update: 10th Apr 2020
+410,12,2020-03-18,India,Ladakh,8,0,0,Hist Update: 10th Apr 2020
+411,13,2020-03-19,India,Ladakh,8,0,0,Hist Update: 10th Apr 2020
+412,14,2020-03-20,India,Ladakh,10,0,0,Hist Update: 10th Apr 2020
+413,15,2020-03-21,India,Ladakh,13,0,0,Hist Update: 10th Apr 2020
+414,16,2020-03-22,India,Ladakh,13,0,0,Hist Update: 10th Apr 2020
+415,17,2020-03-23,India,Ladakh,13,0,0,Hist Update: 10th Apr 2020
+416,18,2020-03-24,India,Ladakh,13,0,0,Hist Update: 10th Apr 2020
+417,19,2020-03-25,India,Ladakh,13,0,0,Hist Update: 10th Apr 2020
+418,20,2020-03-26,India,Ladakh,13,0,0,Hist Update: 10th Apr 2020
+419,21,2020-03-27,India,Ladakh,13,3,0,Hist Update: 10th Apr 2020
+420,22,2020-03-28,India,Ladakh,13,3,0,Hist Update: 10th Apr 2020
+421,23,2020-03-29,India,Ladakh,13,3,0,Hist Update: 10th Apr 2020
+422,24,2020-03-30,India,Ladakh,13,3,0,Hist Update: 10th Apr 2020
+423,25,2020-03-31,India,Ladakh,13,3,0,Hist Update: 10th Apr 2020
+424,26,2020-04-01,India,Ladakh,13,3,0,Hist Update: 10th Apr 2020
+425,27,2020-04-02,India,Ladakh,13,3,0,Hist Update: 10th Apr 2020
+426,28,2020-04-03,India,Ladakh,14,3,0,Hist Update: 10th Apr 2020
+427,29,2020-04-04,India,Ladakh,14,3,0,Hist Update: 10th Apr 2020
+428,30,2020-04-05,India,Ladakh,14,10,0,Hist Update: 10th Apr 2020
+429,31,2020-04-06,India,Ladakh,14,10,0,Hist Update: 10th Apr 2020
+430,32,2020-04-07,India,Ladakh,14,10,0,Hist Update: 10th Apr 2020
+431,33,2020-04-08,India,Ladakh,14,10,0,Hist Update: 10th Apr 2020
+432,34,2020-04-09,India,Ladakh,14,10,0,Hist Update: 10th Apr 2020
+433,1,2020-03-21,India,Madhya Pradesh,4,0,0,Hist Update: 10th Apr 2020
+434,2,2020-03-22,India,Madhya Pradesh,4,0,0,Hist Update: 10th Apr 2020
+435,3,2020-03-23,India,Madhya Pradesh,6,0,0,Hist Update: 10th Apr 2020
+436,4,2020-03-24,India,Madhya Pradesh,7,0,0,Hist Update: 10th Apr 2020
+437,5,2020-03-25,India,Madhya Pradesh,14,0,0,Hist Update: 10th Apr 2020
+438,6,2020-03-26,India,Madhya Pradesh,20,0,1,Hist Update: 10th Apr 2020
+439,7,2020-03-27,India,Madhya Pradesh,20,0,1,Hist Update: 10th Apr 2020
+440,8,2020-03-28,India,Madhya Pradesh,30,0,2,Hist Update: 10th Apr 2020
+441,9,2020-03-29,India,Madhya Pradesh,30,0,2,Hist Update: 10th Apr 2020
+442,10,2020-03-30,India,Madhya Pradesh,47,0,3,Hist Update: 10th Apr 2020
+443,11,2020-03-31,India,Madhya Pradesh,47,0,3,Hist Update: 10th Apr 2020
+444,12,2020-04-01,India,Madhya Pradesh,66,0,3,Hist Update: 10th Apr 2020
+445,13,2020-04-02,India,Madhya Pradesh,99,0,6,Hist Update: 10th Apr 2020
+446,14,2020-04-03,India,Madhya Pradesh,104,0,6,Hist Update: 10th Apr 2020
+447,15,2020-04-04,India,Madhya Pradesh,104,0,6,Hist Update: 10th Apr 2020
+448,16,2020-04-05,India,Madhya Pradesh,165,0,9,Hist Update: 10th Apr 2020
+449,17,2020-04-06,India,Madhya Pradesh,165,0,9,Hist Update: 10th Apr 2020
+450,18,2020-04-07,India,Madhya Pradesh,229,0,13,Hist Update: 10th Apr 2020
+451,19,2020-04-08,India,Madhya Pradesh,229,0,13,Hist Update: 10th Apr 2020
+452,20,2020-04-09,India,Madhya Pradesh,259,0,16,Hist Update: 10th Apr 2020
+453,1,2020-03-09,India,Maharashtra,2,0,0,Hist Update: 10th Apr 2020
+454,2,2020-03-10,India,Maharashtra,5,0,0,Hist Update: 10th Apr 2020
+455,3,2020-03-11,India,Maharashtra,2,0,0,Hist Update: 10th Apr 2020
+456,4,2020-03-12,India,Maharashtra,11,0,0,Hist Update: 10th Apr 2020
+457,5,2020-03-13,India,Maharashtra,14,0,0,Hist Update: 10th Apr 2020
+458,6,2020-03-14,India,Maharashtra,14,0,0,Hist Update: 10th Apr 2020
+459,7,2020-03-15,India,Maharashtra,32,0,0,Hist Update: 10th Apr 2020
+460,8,2020-03-16,India,Maharashtra,32,0,0,Hist Update: 10th Apr 2020
+461,9,2020-03-17,India,Maharashtra,39,0,1,Hist Update: 10th Apr 2020
+462,10,2020-03-18,India,Maharashtra,42,0,1,Hist Update: 10th Apr 2020
+463,11,2020-03-19,India,Maharashtra,47,0,1,Hist Update: 10th Apr 2020
+464,12,2020-03-20,India,Maharashtra,52,0,1,Hist Update: 10th Apr 2020
+465,13,2020-03-21,India,Maharashtra,63,0,1,Hist Update: 10th Apr 2020
+466,14,2020-03-22,India,Maharashtra,67,0,2,Hist Update: 10th Apr 2020
+467,15,2020-03-23,India,Maharashtra,74,0,2,Hist Update: 10th Apr 2020
+468,16,2020-03-24,India,Maharashtra,89,0,2,Hist Update: 10th Apr 2020
+469,17,2020-03-25,India,Maharashtra,128,1,3,Hist Update: 10th Apr 2020
+470,18,2020-03-26,India,Maharashtra,124,1,3,Hist Update: 10th Apr 2020
+471,19,2020-03-27,India,Maharashtra,130,15,4,Hist Update: 10th Apr 2020
+472,20,2020-03-28,India,Maharashtra,180,25,5,Hist Update: 10th Apr 2020
+473,21,2020-03-29,India,Maharashtra,186,25,6,Hist Update: 10th Apr 2020
+474,22,2020-03-30,India,Maharashtra,198,25,8,Hist Update: 10th Apr 2020
+475,23,2020-03-31,India,Maharashtra,216,39,9,Hist Update: 10th Apr 2020
+476,24,2020-04-01,India,Maharashtra,302,39,9,Hist Update: 10th Apr 2020
+477,25,2020-04-02,India,Maharashtra,335,42,13,Hist Update: 10th Apr 2020
+478,26,2020-04-03,India,Maharashtra,335,42,16,Hist Update: 10th Apr 2020
+479,27,2020-04-04,India,Maharashtra,490,42,24,Hist Update: 10th Apr 2020
+480,28,2020-04-05,India,Maharashtra,490,42,24,Hist Update: 10th Apr 2020
+481,29,2020-04-06,India,Maharashtra,748,56,45,Hist Update: 10th Apr 2020
+482,30,2020-04-07,India,Maharashtra,868,56,48,Hist Update: 10th Apr 2020
+483,31,2020-04-08,India,Maharashtra,1018,79,64,Hist Update: 10th Apr 2020
+484,32,2020-04-09,India,Maharashtra,1135,117,72,Hist Update: 10th Apr 2020
+485,1,2020-03-24,India,Manipur,1,0,0,Hist Update: 10th Apr 2020
+486,2,2020-03-25,India,Manipur,1,0,0,Hist Update: 10th Apr 2020
+487,3,2020-03-26,India,Manipur,1,0,0,Hist Update: 10th Apr 2020
+488,4,2020-03-27,India,Manipur,1,0,0,Hist Update: 10th Apr 2020
+489,5,2020-03-28,India,Manipur,1,0,0,Hist Update: 10th Apr 2020
+490,6,2020-03-29,India,Manipur,1,0,0,Hist Update: 10th Apr 2020
+491,7,2020-03-30,India,Manipur,1,0,0,Hist Update: 10th Apr 2020
+492,8,2020-03-31,India,Manipur,1,0,0,Hist Update: 10th Apr 2020
+493,9,2020-04-01,India,Manipur,1,0,0,Hist Update: 10th Apr 2020
+494,10,2020-04-02,India,Manipur,1,0,0,Hist Update: 10th Apr 2020
+495,11,2020-04-03,India,Manipur,2,0,0,Hist Update: 10th Apr 2020
+496,12,2020-04-04,India,Manipur,2,0,0,Hist Update: 10th Apr 2020
+497,13,2020-04-05,India,Manipur,2,0,0,Hist Update: 10th Apr 2020
+498,14,2020-04-06,India,Manipur,2,0,0,Hist Update: 10th Apr 2020
+499,15,2020-04-07,India,Manipur,2,0,0,Hist Update: 10th Apr 2020
+500,16,2020-04-08,India,Manipur,2,0,0,Hist Update: 10th Apr 2020
+501,17,2020-04-09,India,Manipur,2,1,0,Hist Update: 10th Apr 2020
+502,1,2020-03-25,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+503,2,2020-03-26,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+504,3,2020-03-27,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+505,4,2020-03-28,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+506,5,2020-03-29,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+507,6,2020-03-30,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+508,7,2020-03-31,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+509,8,2020-04-01,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+510,9,2020-04-02,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+511,10,2020-04-03,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+512,11,2020-04-04,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+513,12,2020-04-05,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+514,13,2020-04-06,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+515,14,2020-04-07,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+516,15,2020-04-08,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+517,16,2020-04-09,India,Mizoram,1,0,0,Hist Update: 10th Apr 2020
+518,1,2020-03-16,India,Odisha,1,0,0,Hist Update: 10th Apr 2020
+519,2,2020-03-17,India,Odisha,1,0,0,Hist Update: 10th Apr 2020
+520,3,2020-03-18,India,Odisha,1,0,0,Hist Update: 10th Apr 2020
+521,4,2020-03-19,India,Odisha,1,0,0,Hist Update: 10th Apr 2020
+522,5,2020-03-20,India,Odisha,2,0,0,Hist Update: 10th Apr 2020
+523,6,2020-03-21,India,Odisha,2,0,0,Hist Update: 10th Apr 2020
+524,7,2020-03-22,India,Odisha,2,0,0,Hist Update: 10th Apr 2020
+525,8,2020-03-23,India,Odisha,2,0,0,Hist Update: 10th Apr 2020
+526,9,2020-03-24,India,Odisha,2,0,0,Hist Update: 10th Apr 2020
+527,10,2020-03-25,India,Odisha,2,0,0,Hist Update: 10th Apr 2020
+528,11,2020-03-26,India,Odisha,2,0,0,Hist Update: 10th Apr 2020
+529,12,2020-03-27,India,Odisha,2,0,0,Hist Update: 10th Apr 2020
+530,13,2020-03-28,India,Odisha,3,0,0,Hist Update: 10th Apr 2020
+531,14,2020-03-29,India,Odisha,3,0,0,Hist Update: 10th Apr 2020
+532,15,2020-03-30,India,Odisha,3,0,0,Hist Update: 10th Apr 2020
+533,16,2020-03-31,India,Odisha,3,0,0,Hist Update: 10th Apr 2020
+534,17,2020-04-01,India,Odisha,4,0,0,Hist Update: 10th Apr 2020
+535,18,2020-04-02,India,Odisha,4,0,0,Hist Update: 10th Apr 2020
+536,19,2020-04-03,India,Odisha,5,0,0,Hist Update: 10th Apr 2020
+537,20,2020-04-04,India,Odisha,5,0,0,Hist Update: 10th Apr 2020
+538,21,2020-04-05,India,Odisha,20,0,0,Hist Update: 10th Apr 2020
+539,22,2020-04-06,India,Odisha,21,2,0,Hist Update: 10th Apr 2020
+540,23,2020-04-07,India,Odisha,42,2,1,Hist Update: 10th Apr 2020
+541,24,2020-04-08,India,Odisha,42,2,1,Hist Update: 10th Apr 2020
+542,25,2020-04-09,India,Odisha,42,2,1,Hist Update: 10th Apr 2020
+543,1,2020-03-18,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+544,2,2020-03-19,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+545,3,2020-03-20,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+546,4,2020-03-21,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+547,5,2020-03-22,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+548,6,2020-03-23,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+549,7,2020-03-24,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+550,8,2020-03-25,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+551,9,2020-03-26,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+552,10,2020-03-27,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+553,11,2020-03-28,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+554,12,2020-03-29,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+555,13,2020-03-30,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+556,14,2020-03-31,India,Puducherry,1,0,0,Hist Update: 10th Apr 2020
+557,15,2020-04-01,India,Puducherry,3,1,0,Hist Update: 10th Apr 2020
+558,16,2020-04-02,India,Puducherry,3,1,0,Hist Update: 10th Apr 2020
+559,17,2020-04-03,India,Puducherry,5,1,0,Hist Update: 10th Apr 2020
+560,18,2020-04-04,India,Puducherry,5,1,0,Hist Update: 10th Apr 2020
+561,19,2020-04-05,India,Puducherry,5,1,0,Hist Update: 10th Apr 2020
+562,20,2020-04-06,India,Puducherry,5,1,0,Hist Update: 10th Apr 2020
+563,21,2020-04-07,India,Puducherry,5,1,0,Hist Update: 10th Apr 2020
+564,22,2020-04-08,India,Puducherry,5,1,0,Hist Update: 10th Apr 2020
+565,23,2020-04-09,India,Puducherry,5,1,0,Hist Update: 10th Apr 2020
+566,1,2020-03-09,India,Punjab,1,0,0,Hist Update: 10th Apr 2020
+567,2,2020-03-10,India,Punjab,1,0,0,Hist Update: 10th Apr 2020
+568,3,2020-03-11,India,Punjab,1,0,0,Hist Update: 10th Apr 2020
+569,4,2020-03-12,India,Punjab,1,0,0,Hist Update: 10th Apr 2020
+570,5,2020-03-13,India,Punjab,1,0,0,Hist Update: 10th Apr 2020
+571,6,2020-03-14,India,Punjab,1,0,0,Hist Update: 10th Apr 2020
+572,7,2020-03-15,India,Punjab,1,0,0,Hist Update: 10th Apr 2020
+573,8,2020-03-16,India,Punjab,1,0,0,Hist Update: 10th Apr 2020
+574,9,2020-03-17,India,Punjab,1,0,0,Hist Update: 10th Apr 2020
+575,10,2020-03-18,India,Punjab,1,0,0,Hist Update: 10th Apr 2020
+576,11,2020-03-19,India,Punjab,2,0,1,Hist Update: 10th Apr 2020
+577,12,2020-03-20,India,Punjab,2,0,1,Hist Update: 10th Apr 2020
+578,13,2020-03-21,India,Punjab,13,0,1,Hist Update: 10th Apr 2020
+579,14,2020-03-22,India,Punjab,21,0,1,Hist Update: 10th Apr 2020
+580,15,2020-03-23,India,Punjab,21,0,1,Hist Update: 10th Apr 2020
+581,16,2020-03-24,India,Punjab,29,0,1,Hist Update: 10th Apr 2020
+582,17,2020-03-25,India,Punjab,29,0,1,Hist Update: 10th Apr 2020
+583,18,2020-03-26,India,Punjab,33,0,1,Hist Update: 10th Apr 2020
+584,19,2020-03-27,India,Punjab,33,0,1,Hist Update: 10th Apr 2020
+585,20,2020-03-28,India,Punjab,38,1,1,Hist Update: 10th Apr 2020
+586,21,2020-03-29,India,Punjab,38,1,1,Hist Update: 10th Apr 2020
+587,22,2020-03-30,India,Punjab,38,1,1,Hist Update: 10th Apr 2020
+588,23,2020-03-31,India,Punjab,41,1,3,Hist Update: 10th Apr 2020
+589,24,2020-04-01,India,Punjab,42,1,3,Hist Update: 10th Apr 2020
+590,25,2020-04-02,India,Punjab,46,1,4,Hist Update: 10th Apr 2020
+591,26,2020-04-03,India,Punjab,48,1,5,Hist Update: 10th Apr 2020
+592,27,2020-04-04,India,Punjab,57,1,5,Hist Update: 10th Apr 2020
+593,28,2020-04-05,India,Punjab,57,1,5,Hist Update: 10th Apr 2020
+594,29,2020-04-06,India,Punjab,76,4,6,Hist Update: 10th Apr 2020
+595,30,2020-04-07,India,Punjab,91,4,7,Hist Update: 10th Apr 2020
+596,31,2020-04-08,India,Punjab,91,4,7,Hist Update: 10th Apr 2020
+597,32,2020-04-09,India,Punjab,101,4,8,Hist Update: 10th Apr 2020
+598,1,2020-03-03,India,Rajasthan,1,0,0,Hist Update: 10th Apr 2020
+599,2,2020-03-04,India,Rajasthan,15,0,0,Hist Update: 10th Apr 2020
+600,3,2020-03-05,India,Rajasthan,15,0,0,Hist Update: 10th Apr 2020
+601,4,2020-03-06,India,Rajasthan,15,0,0,Hist Update: 10th Apr 2020
+602,5,2020-03-07,India,Rajasthan,15,0,0,Hist Update: 10th Apr 2020
+603,6,2020-03-08,India,Rajasthan,15,0,0,Hist Update: 10th Apr 2020
+604,7,2020-03-09,India,Rajasthan,15,0,0,Hist Update: 10th Apr 2020
+605,8,2020-03-10,India,Rajasthan,15,0,0,Hist Update: 10th Apr 2020
+606,9,2020-03-11,India,Rajasthan,3,0,0,Hist Update: 10th Apr 2020
+607,10,2020-03-12,India,Rajasthan,3,0,0,Hist Update: 10th Apr 2020
+608,11,2020-03-13,India,Rajasthan,3,0,0,Hist Update: 10th Apr 2020
+609,12,2020-03-14,India,Rajasthan,3,1,0,Hist Update: 10th Apr 2020
+610,13,2020-03-15,India,Rajasthan,4,3,0,Hist Update: 10th Apr 2020
+611,14,2020-03-16,India,Rajasthan,4,3,0,Hist Update: 10th Apr 2020
+612,15,2020-03-17,India,Rajasthan,4,3,0,Hist Update: 10th Apr 2020
+613,16,2020-03-18,India,Rajasthan,4,3,0,Hist Update: 10th Apr 2020
+614,17,2020-03-19,India,Rajasthan,7,3,0,Hist Update: 10th Apr 2020
+615,18,2020-03-20,India,Rajasthan,17,3,0,Hist Update: 10th Apr 2020
+616,19,2020-03-21,India,Rajasthan,17,3,0,Hist Update: 10th Apr 2020
+617,20,2020-03-22,India,Rajasthan,24,3,0,Hist Update: 10th Apr 2020
+618,21,2020-03-23,India,Rajasthan,28,3,0,Hist Update: 10th Apr 2020
+619,22,2020-03-24,India,Rajasthan,32,3,0,Hist Update: 10th Apr 2020
+620,23,2020-03-25,India,Rajasthan,36,3,0,Hist Update: 10th Apr 2020
+621,24,2020-03-26,India,Rajasthan,41,3,0,Hist Update: 10th Apr 2020
+622,25,2020-03-27,India,Rajasthan,41,3,0,Hist Update: 10th Apr 2020
+623,26,2020-03-28,India,Rajasthan,54,3,0,Hist Update: 10th Apr 2020
+624,27,2020-03-29,India,Rajasthan,55,3,0,Hist Update: 10th Apr 2020
+625,28,2020-03-30,India,Rajasthan,59,3,0,Hist Update: 10th Apr 2020
+626,29,2020-03-31,India,Rajasthan,74,3,0,Hist Update: 10th Apr 2020
+627,30,2020-04-01,India,Rajasthan,93,3,0,Hist Update: 10th Apr 2020
+628,31,2020-04-02,India,Rajasthan,108,3,0,Hist Update: 10th Apr 2020
+629,32,2020-04-03,India,Rajasthan,167,3,0,Hist Update: 10th Apr 2020
+630,33,2020-04-04,India,Rajasthan,200,21,0,Hist Update: 10th Apr 2020
+631,34,2020-04-05,India,Rajasthan,200,21,0,Hist Update: 10th Apr 2020
+632,35,2020-04-06,India,Rajasthan,274,21,0,Hist Update: 10th Apr 2020
+633,36,2020-04-07,India,Rajasthan,288,21,3,Hist Update: 10th Apr 2020
+634,37,2020-04-08,India,Rajasthan,328,21,3,Hist Update: 10th Apr 2020
+635,38,2020-04-09,India,Rajasthan,383,21,3,Hist Update: 10th Apr 2020
+636,1,2020-03-07,India,Tamil Nadu,1,0,0,Hist Update: 10th Apr 2020
+637,2,2020-03-08,India,Tamil Nadu,1,0,0,Hist Update: 10th Apr 2020
+638,3,2020-03-09,India,Tamil Nadu,1,0,0,Hist Update: 10th Apr 2020
+639,4,2020-03-10,India,Tamil Nadu,1,0,0,Hist Update: 10th Apr 2020
+640,5,2020-03-11,India,Tamil Nadu,1,0,0,Hist Update: 10th Apr 2020
+641,6,2020-03-12,India,Tamil Nadu,1,0,0,Hist Update: 10th Apr 2020
+642,7,2020-03-13,India,Tamil Nadu,1,0,0,Hist Update: 10th Apr 2020
+643,8,2020-03-14,India,Tamil Nadu,1,0,0,Hist Update: 10th Apr 2020
+644,9,2020-03-15,India,Tamil Nadu,1,0,0,Hist Update: 10th Apr 2020
+645,10,2020-03-16,India,Tamil Nadu,1,0,0,Hist Update: 10th Apr 2020
+646,11,2020-03-17,India,Tamil Nadu,1,0,0,Hist Update: 10th Apr 2020
+647,12,2020-03-18,India,Tamil Nadu,1,0,0,Hist Update: 10th Apr 2020
+648,13,2020-03-19,India,Tamil Nadu,2,1,0,Hist Update: 10th Apr 2020
+649,14,2020-03-20,India,Tamil Nadu,3,1,0,Hist Update: 10th Apr 2020
+650,15,2020-03-21,India,Tamil Nadu,3,1,0,Hist Update: 10th Apr 2020
+651,16,2020-03-22,India,Tamil Nadu,7,1,0,Hist Update: 10th Apr 2020
+652,17,2020-03-23,India,Tamil Nadu,9,1,0,Hist Update: 10th Apr 2020
+653,18,2020-03-24,India,Tamil Nadu,15,1,0,Hist Update: 10th Apr 2020
+654,19,2020-03-25,India,Tamil Nadu,18,1,0,Hist Update: 10th Apr 2020
+655,20,2020-03-26,India,Tamil Nadu,26,1,1,Hist Update: 10th Apr 2020
+656,21,2020-03-27,India,Tamil Nadu,29,1,1,Hist Update: 10th Apr 2020
+657,22,2020-03-28,India,Tamil Nadu,40,2,1,Hist Update: 10th Apr 2020
+658,23,2020-03-29,India,Tamil Nadu,49,4,1,Hist Update: 10th Apr 2020
+659,24,2020-03-30,India,Tamil Nadu,67,4,1,Hist Update: 10th Apr 2020
+660,25,2020-03-31,India,Tamil Nadu,74,4,1,Hist Update: 10th Apr 2020
+661,26,2020-04-01,India,Tamil Nadu,234,6,1,Hist Update: 10th Apr 2020
+662,27,2020-04-02,India,Tamil Nadu,234,6,1,Hist Update: 10th Apr 2020
+663,28,2020-04-03,India,Tamil Nadu,309,6,1,Hist Update: 10th Apr 2020
+664,29,2020-04-04,India,Tamil Nadu,411,6,2,Hist Update: 10th Apr 2020
+665,30,2020-04-05,India,Tamil Nadu,485,6,3,Hist Update: 10th Apr 2020
+666,31,2020-04-06,India,Tamil Nadu,571,8,5,Hist Update: 10th Apr 2020
+667,32,2020-04-07,India,Tamil Nadu,621,8,5,Hist Update: 10th Apr 2020
+668,33,2020-04-08,India,Tamil Nadu,690,19,7,Hist Update: 10th Apr 2020
+669,34,2020-04-09,India,Tamil Nadu,738,21,8,Hist Update: 10th Apr 2020
+670,1,2020-03-02,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+671,2,2020-03-03,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+672,3,2020-03-04,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+673,4,2020-03-05,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+674,5,2020-03-06,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+675,6,2020-03-07,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+676,7,2020-03-08,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+677,8,2020-03-09,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+678,9,2020-03-10,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+679,10,2020-03-11,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+680,11,2020-03-12,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+681,12,2020-03-13,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+682,13,2020-03-14,India,Telengana,1,0,0,Hist Update: 10th Apr 2020
+683,14,2020-03-15,India,Telengana,3,1,0,Hist Update: 10th Apr 2020
+684,15,2020-03-16,India,Telengana,3,1,0,Hist Update: 10th Apr 2020
+685,16,2020-03-17,India,Telengana,5,1,0,Hist Update: 10th Apr 2020
+686,17,2020-03-18,India,Telengana,6,1,0,Hist Update: 10th Apr 2020
+687,18,2020-03-19,India,Telengana,6,1,0,Hist Update: 10th Apr 2020
+688,19,2020-03-20,India,Telengana,17,1,0,Hist Update: 10th Apr 2020
+689,20,2020-03-21,India,Telengana,21,1,0,Hist Update: 10th Apr 2020
+690,21,2020-03-22,India,Telengana,22,1,0,Hist Update: 10th Apr 2020
+691,22,2020-03-23,India,Telengana,32,1,0,Hist Update: 10th Apr 2020
+692,23,2020-03-24,India,Telengana,35,1,0,Hist Update: 10th Apr 2020
+693,24,2020-03-25,India,Telengana,35,1,0,Hist Update: 10th Apr 2020
+694,25,2020-03-26,India,Telengana,44,1,0,Hist Update: 10th Apr 2020
+695,26,2020-03-27,India,Telengana,45,1,0,Hist Update: 10th Apr 2020
+696,27,2020-03-28,India,Telengana,56,1,0,Hist Update: 10th Apr 2020
+697,28,2020-03-29,India,Telengana,66,1,1,Hist Update: 10th Apr 2020
+698,29,2020-03-30,India,Telengana,71,1,1,Hist Update: 10th Apr 2020
+699,30,2020-03-31,India,Telengana,79,1,1,Hist Update: 10th Apr 2020
+700,31,2020-04-01,India,Telengana,96,1,3,Hist Update: 10th Apr 2020
+701,32,2020-04-02,India,Telengana,107,1,3,Hist Update: 10th Apr 2020
+702,33,2020-04-03,India,Telengana,158,1,7,Hist Update: 10th Apr 2020
+703,34,2020-04-04,India,Telengana,159,1,7,Hist Update: 10th Apr 2020
+704,35,2020-04-05,India,Telengana,269,32,7,Hist Update: 10th Apr 2020
+705,36,2020-04-06,India,Telengana,321,34,7,Hist Update: 10th Apr 2020
+706,37,2020-04-07,India,Telengana,364,35,7,Hist Update: 10th Apr 2020
+707,38,2020-04-08,India,Telengana,427,35,7,Hist Update: 10th Apr 2020
+708,39,2020-04-09,India,Telengana,442,35,7,Hist Update: 10th Apr 2020
+709,1,2020-04-07,India,Tripura,1,0,0,Hist Update: 10th Apr 2020
+710,2,2020-04-08,India,Tripura,1,0,0,Hist Update: 10th Apr 2020
+711,3,2020-04-09,India,Tripura,1,0,0,Hist Update: 10th Apr 2020
+712,1,2020-03-04,India,Uttar Pradesh,6,0,0,Hist Update: 10th Apr 2020
+713,2,2020-03-05,India,Uttar Pradesh,7,0,0,Hist Update: 10th Apr 2020
+714,3,2020-03-06,India,Uttar Pradesh,7,0,0,Hist Update: 10th Apr 2020
+715,4,2020-03-07,India,Uttar Pradesh,7,0,0,Hist Update: 10th Apr 2020
+716,5,2020-03-08,India,Uttar Pradesh,7,0,0,Hist Update: 10th Apr 2020
+717,6,2020-03-09,India,Uttar Pradesh,7,0,0,Hist Update: 10th Apr 2020
+718,7,2020-03-10,India,Uttar Pradesh,7,0,0,Hist Update: 10th Apr 2020
+719,8,2020-03-11,India,Uttar Pradesh,9,0,0,Hist Update: 10th Apr 2020
+720,9,2020-03-12,India,Uttar Pradesh,11,0,0,Hist Update: 10th Apr 2020
+721,10,2020-03-13,India,Uttar Pradesh,11,0,0,Hist Update: 10th Apr 2020
+722,11,2020-03-14,India,Uttar Pradesh,12,5,0,Hist Update: 10th Apr 2020
+723,12,2020-03-15,India,Uttar Pradesh,13,4,0,Hist Update: 10th Apr 2020
+724,13,2020-03-16,India,Uttar Pradesh,13,4,0,Hist Update: 10th Apr 2020
+725,14,2020-03-17,India,Uttar Pradesh,15,5,0,Hist Update: 10th Apr 2020
+726,15,2020-03-18,India,Uttar Pradesh,16,5,0,Hist Update: 10th Apr 2020
+727,16,2020-03-19,India,Uttar Pradesh,19,9,0,Hist Update: 10th Apr 2020
+728,17,2020-03-20,India,Uttar Pradesh,23,9,0,Hist Update: 10th Apr 2020
+729,18,2020-03-21,India,Uttar Pradesh,24,9,0,Hist Update: 10th Apr 2020
+730,19,2020-03-22,India,Uttar Pradesh,27,9,0,Hist Update: 10th Apr 2020
+731,20,2020-03-23,India,Uttar Pradesh,31,9,0,Hist Update: 10th Apr 2020
+732,21,2020-03-24,India,Uttar Pradesh,33,11,0,Hist Update: 10th Apr 2020
+733,22,2020-03-25,India,Uttar Pradesh,37,11,0,Hist Update: 10th Apr 2020
+734,23,2020-03-26,India,Uttar Pradesh,41,11,0,Hist Update: 10th Apr 2020
+735,24,2020-03-27,India,Uttar Pradesh,41,11,0,Hist Update: 10th Apr 2020
+736,25,2020-03-28,India,Uttar Pradesh,55,11,0,Hist Update: 10th Apr 2020
+737,26,2020-03-29,India,Uttar Pradesh,65,11,0,Hist Update: 10th Apr 2020
+738,27,2020-03-30,India,Uttar Pradesh,82,11,0,Hist Update: 10th Apr 2020
+739,28,2020-03-31,India,Uttar Pradesh,101,14,0,Hist Update: 10th Apr 2020
+740,29,2020-04-01,India,Uttar Pradesh,103,14,2,Hist Update: 10th Apr 2020
+741,30,2020-04-02,India,Uttar Pradesh,113,14,2,Hist Update: 10th Apr 2020
+742,31,2020-04-03,India,Uttar Pradesh,172,14,2,Hist Update: 10th Apr 2020
+743,32,2020-04-04,India,Uttar Pradesh,174,19,2,Hist Update: 10th Apr 2020
+744,33,2020-04-05,India,Uttar Pradesh,227,19,2,Hist Update: 10th Apr 2020
+745,34,2020-04-06,India,Uttar Pradesh,305,21,3,Hist Update: 10th Apr 2020
+746,35,2020-04-07,India,Uttar Pradesh,305,21,3,Hist Update: 10th Apr 2020
+747,36,2020-04-08,India,Uttar Pradesh,343,26,3,Hist Update: 10th Apr 2020
+748,37,2020-04-09,India,Uttar Pradesh,410,31,4,Hist Update: 10th Apr 2020
+749,1,2020-03-15,India,Uttarakhand,1,0,0,Hist Update: 10th Apr 2020
+750,2,2020-03-16,India,Uttarakhand,1,0,0,Hist Update: 10th Apr 2020
+751,3,2020-03-17,India,Uttarakhand,1,0,0,Hist Update: 10th Apr 2020
+752,4,2020-03-18,India,Uttarakhand,1,0,0,Hist Update: 10th Apr 2020
+753,5,2020-03-19,India,Uttarakhand,1,0,0,Hist Update: 10th Apr 2020
+754,6,2020-03-20,India,Uttarakhand,3,0,0,Hist Update: 10th Apr 2020
+755,7,2020-03-21,India,Uttarakhand,3,0,0,Hist Update: 10th Apr 2020
+756,8,2020-03-22,India,Uttarakhand,3,0,0,Hist Update: 10th Apr 2020
+757,9,2020-03-23,India,Uttarakhand,3,0,0,Hist Update: 10th Apr 2020
+758,10,2020-03-24,India,Uttarakhand,4,0,0,Hist Update: 10th Apr 2020
+759,11,2020-03-25,India,Uttarakhand,4,0,0,Hist Update: 10th Apr 2020
+760,12,2020-03-26,India,Uttarakhand,5,0,0,Hist Update: 10th Apr 2020
+761,13,2020-03-27,India,Uttarakhand,5,0,0,Hist Update: 10th Apr 2020
+762,14,2020-03-28,India,Uttarakhand,5,0,0,Hist Update: 10th Apr 2020
+763,15,2020-03-29,India,Uttarakhand,7,2,0,Hist Update: 10th Apr 2020
+764,16,2020-03-30,India,Uttarakhand,7,2,0,Hist Update: 10th Apr 2020
+765,17,2020-03-31,India,Uttarakhand,7,2,0,Hist Update: 10th Apr 2020
+766,18,2020-04-01,India,Uttarakhand,7,2,0,Hist Update: 10th Apr 2020
+767,19,2020-04-02,India,Uttarakhand,7,2,0,Hist Update: 10th Apr 2020
+768,20,2020-04-03,India,Uttarakhand,10,2,0,Hist Update: 10th Apr 2020
+769,21,2020-04-04,India,Uttarakhand,16,2,0,Hist Update: 10th Apr 2020
+770,22,2020-04-05,India,Uttarakhand,22,2,0,Hist Update: 10th Apr 2020
+771,23,2020-04-06,India,Uttarakhand,26,4,0,Hist Update: 10th Apr 2020
+772,24,2020-04-07,India,Uttarakhand,31,5,0,Hist Update: 10th Apr 2020
+773,25,2020-04-08,India,Uttarakhand,31,5,0,Hist Update: 10th Apr 2020
+774,26,2020-04-09,India,Uttarakhand,35,5,0,Hist Update: 10th Apr 2020
+775,1,2020-03-18,India,West Bengal,1,0,0,Hist Update: 10th Apr 2020
+776,2,2020-03-19,India,West Bengal,1,0,0,Hist Update: 10th Apr 2020
+777,3,2020-03-20,India,West Bengal,2,0,0,Hist Update: 10th Apr 2020
+778,4,2020-03-21,India,West Bengal,3,0,0,Hist Update: 10th Apr 2020
+779,5,2020-03-22,India,West Bengal,4,0,0,Hist Update: 10th Apr 2020
+780,6,2020-03-23,India,West Bengal,7,0,0,Hist Update: 10th Apr 2020
+781,7,2020-03-24,India,West Bengal,9,0,1,Hist Update: 10th Apr 2020
+782,8,2020-03-25,India,West Bengal,9,0,1,Hist Update: 10th Apr 2020
+783,9,2020-03-26,India,West Bengal,10,0,1,Hist Update: 10th Apr 2020
+784,10,2020-03-27,India,West Bengal,10,0,1,Hist Update: 10th Apr 2020
+785,11,2020-03-28,India,West Bengal,15,0,1,Hist Update: 10th Apr 2020
+786,12,2020-03-29,India,West Bengal,18,0,1,Hist Update: 10th Apr 2020
+787,13,2020-03-30,India,West Bengal,22,0,1,Hist Update: 10th Apr 2020
+788,14,2020-03-31,India,West Bengal,26,0,2,Hist Update: 10th Apr 2020
+789,15,2020-04-01,India,West Bengal,37,6,3,Hist Update: 10th Apr 2020
+790,16,2020-04-02,India,West Bengal,53,6,3,Hist Update: 10th Apr 2020
+791,17,2020-04-03,India,West Bengal,63,3,3,Hist Update: 10th Apr 2020
+792,18,2020-04-04,India,West Bengal,69,3,3,Hist Update: 10th Apr 2020
+793,19,2020-04-05,India,West Bengal,80,10,3,Hist Update: 10th Apr 2020
+794,20,2020-04-06,India,West Bengal,80,10,3,Hist Update: 10th Apr 2020
+795,21,2020-04-07,India,West Bengal,91,13,3,Hist Update: 10th Apr 2020
+796,22,2020-04-08,India,West Bengal,99,13,5,Hist Update: 10th Apr 2020
+797,23,2020-04-09,India,West Bengal,103,16,5,Hist Update: 10th Apr 2020
+798,0,2020-04-10,India,India,6039,515,206,"as on : 10 April 2020, 17:00 GMT+5:30"
+799,1,2020-04-10,India,Andhra Pradesh,363,7,6,"as on : 10 April 2020, 17:00 GMT+5:30"
+800,2,2020-04-10,India,Andaman and Nicobar Islands,11,0,0,"as on : 10 April 2020, 17:00 GMT+5:30"
+801,3,2020-04-10,India,Arunachal Pradesh,1,0,0,"as on : 10 April 2020, 17:00 GMT+5:30"
+802,4,2020-04-10,India,Assam,29,0,0,"as on : 10 April 2020, 17:00 GMT+5:30"
+803,5,2020-04-10,India,Bihar,60,0,1,"as on : 10 April 2020, 17:00 GMT+5:30"
+804,6,2020-04-10,India,Chandigarh,18,7,0,"as on : 10 April 2020, 17:00 GMT+5:30"
+805,7,2020-04-10,India,Chhattisgarh,10,9,0,"as on : 10 April 2020, 17:00 GMT+5:30"
+806,8,2020-04-10,India,Delhi,898,25,13,"as on : 10 April 2020, 17:00 GMT+5:30"
+807,9,2020-04-10,India,Goa,7,1,0,"as on : 10 April 2020, 17:00 GMT+5:30"
+808,10,2020-04-10,India,Gujarat,241,26,17,"as on : 10 April 2020, 17:00 GMT+5:30"
+809,11,2020-04-10,India,Haryana,169,29,3,"as on : 10 April 2020, 17:00 GMT+5:30"
+810,12,2020-04-10,India,Himachal Pradesh,28,6,1,"as on : 10 April 2020, 17:00 GMT+5:30"
+811,13,2020-04-10,India,Jammu and Kashmir,184,6,4,"as on : 10 April 2020, 17:00 GMT+5:30"
+812,14,2020-04-10,India,Jharkhand,13,0,1,"as on : 10 April 2020, 17:00 GMT+5:30"
+813,15,2020-04-10,India,Karnataka,197,30,6,"as on : 10 April 2020, 17:00 GMT+5:30"
+814,16,2020-04-10,India,Kerala,357,96,2,"as on : 10 April 2020, 17:00 GMT+5:30"
+815,17,2020-04-10,India,Ladakh,15,10,0,"as on : 10 April 2020, 17:00 GMT+5:30"
+816,18,2020-04-10,India,Madhya Pradesh,259,0,16,"as on : 10 April 2020, 17:00 GMT+5:30"
+817,19,2020-04-10,India,Maharashtra,1364,125,97,"as on : 10 April 2020, 17:00 GMT+5:30"
+818,20,2020-04-10,India,Manipur,2,1,0,"as on : 10 April 2020, 17:00 GMT+5:30"
+819,21,2020-04-10,India,Mizoram,1,0,0,"as on : 10 April 2020, 17:00 GMT+5:30"
+820,22,2020-04-10,India,Odisha,44,2,1,"as on : 10 April 2020, 17:00 GMT+5:30"
+821,23,2020-04-10,India,Puducherry,5,1,0,"as on : 10 April 2020, 17:00 GMT+5:30"
+822,24,2020-04-10,India,Punjab,132,5,11,"as on : 10 April 2020, 17:00 GMT+5:30"
+823,25,2020-04-10,India,Rajasthan,463,21,3,"as on : 10 April 2020, 17:00 GMT+5:30"
+824,26,2020-04-10,India,Tamil Nadu,834,21,8,"as on : 10 April 2020, 17:00 GMT+5:30"
+825,27,2020-04-10,India,Telengana,473,35,7,"as on : 10 April 2020, 17:00 GMT+5:30"
+826,28,2020-04-10,India,Tripura,1,0,0,"as on : 10 April 2020, 17:00 GMT+5:30"
+827,29,2020-04-10,India,Uttarakhand,35,5,0,"as on : 10 April 2020, 17:00 GMT+5:30"
+828,30,2020-04-10,India,Uttar Pradesh,431,32,4,"as on : 10 April 2020, 17:00 GMT+5:30"
+829,31,2020-04-10,India,West Bengal,116,16,5,"as on : 10 April 2020, 17:00 GMT+5:30"
