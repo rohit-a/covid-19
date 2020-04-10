@@ -11,7 +11,7 @@ Repo for Covid-19 dashboard and associated data, pyhton files.
 ####
   * [Data Table](https://public.tableau.com/profile/rohita#!/vizhome/Covid-19Tracker_15854107699190/Global-DataTable?:useGuest=true&:display_count=y&:origin=viz_share_link)
 
-## Data Sourcs
+## Data Sources
 
 - Global and US data updated from [JHU Research Centre database](https://github.com/CSSEGISandData/COVID-19) on github
 - India State Level Data - daily snapshot scraped from [Ministry of Health and Family Welfare - GOI](https://www.mohfw.gov.in/) website
