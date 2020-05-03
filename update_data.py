@@ -9,9 +9,13 @@ import pandas as pd
 ##Global files
 
 #reading data from csv files
-df_confirmed = pd.read_csv("C:/Users/rohit/Documents/GitHub/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
-df_deaths = pd.read_csv("C:/Users/rohit/Documents/GitHub/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv")
-df_recovered = pd.read_csv("C:/Users/rohit/Documents/GitHub/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv")
+confirmed_url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+recovered_url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv"
+deaths_url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
+
+df_confirmed = pd.read_csv(confirmed_url)
+df_recovered = pd.read_csv(recovered_url)
+df_deaths = pd.read_csv(deaths_url)
 
 #Coalescing Province/State 
 df_confirmed["Province/State"] = df_confirmed["Province/State"].mask(pd.isnull, df_confirmed["Country/Region"]) 

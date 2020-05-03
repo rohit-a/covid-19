@@ -12,8 +12,11 @@ pivot_key_columns = ["UID","iso2","iso3","code3","FIPS","Admin2","Province_State
 output_columns = ["#Confirmed","#Deaths"]
 
 #Reading csv files
-df_us_confirmed = pd.read_csv("C:/Users/rohit/Documents/GitHub/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv")
-df_us_deaths = pd.read_csv("C:/Users/rohit/Documents/GitHub/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv")
+confirmed_us_url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv"
+deaths_us_url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv"
+
+df_us_confirmed = pd.read_csv(confirmed_us_url)
+df_us_deaths = pd.read_csv(deaths_us_url)
 
 df_us_confirmed = df_us_confirmed.fillna(0)
 df_us_deaths = df_us_deaths.fillna(0)
