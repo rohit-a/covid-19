@@ -36,9 +36,10 @@ df_deaths = df_deaths[["Province/State","Country/Region","Date","#Deaths"]]
 df_recovered = df_recovered[["Province/State","Country/Region","Date","#Recovered"]]
 
 #Joining Datasets
-df_master = df_confirmed.join(df_deaths.set_index(["Province/State","Country/Region","Date"]), on=["Province/State","Country/Region","Date"])
-df_master = df_master.join(df_recovered.set_index(["Province/State","Country/Region","Date"]), on=["Province/State","Country/Region","Date"])
+df_master = df_confirmed.join(df_deaths.set_index(["Province/State","Country/Region","Date"]), on=["Province/State","Country/Region","Date"], how='outer')
+df_master = df_master.join(df_recovered.set_index(["Province/State","Country/Region","Date"]), on=["Province/State","Country/Region","Date"], how='outer')
 
 #output csv
+df_master.fillna(0)
 df_master.to_csv("covid-19 combined data.csv")
 
