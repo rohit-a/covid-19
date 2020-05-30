@@ -48,10 +48,10 @@ state_table_rows = state_table.find_all('tr')
 row_processed, row_skipped = 0, 0
 for row in state_table_rows:
     cols = row.find_all('td')
-    if(len(cols) == 5):    
+    if(len(cols) == 6):    
         s_no = clean_value(cols[0].text)
         state = clean_value(cols[1].text)
-        confirmed = clean_value(cols[2].text)
+        confirmed = clean_value(cols[5].text)
         recovered = clean_value(cols[3].text)
         deaths = clean_value(cols[4].text)
         state_data_list.append([s_no, date, country, state, confirmed, recovered, deaths, as_of_date])
