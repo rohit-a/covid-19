@@ -19,7 +19,7 @@ page = requests.get(URL)
 soup = BeautifulSoup(page.content, 'html.parser')
 state_data_list = []
 date = str(datetime.date.today())
-cleanup_list = ['#',",","\n"]
+cleanup_list = ['#',",","\n","*"]
 
 
 def clean_value(str_to_clean, cleanup_list=cleanup_list):
