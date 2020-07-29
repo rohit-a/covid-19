@@ -26,7 +26,11 @@ state_df_update = pd.read_json(URL_json)
 state_df_update['Country'] = country
 state_df_update['Date'] = date
 state_df_update['As_Of_Date'] = as_of_date
+
 state_df_update['state_name'].replace('','Total',inplace=True)
+state_df_update['state_name'].replace('Telengana***','Telengana',inplace=True)
+state_df_update['state_name'].replace('Telengana','Telangana',inplace=True)
+
 state_df_update.rename({'sno':'S_no', 'state_name':'State','new_positive':'Confirmed','new_cured':'Recovered','new_death':'Deaths'}, inplace=True, axis=1)
 
 #Reading existing file, filtering out duplicate data for today, appending update and writing back.
