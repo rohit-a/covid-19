@@ -49,4 +49,4 @@ def get_all_data():
     return df
        
 data_df = get_all_data()
-data_df.to_csv("India Covid-19 District Data.csv")
+data_df.to_csv("India Covid-19 District Data(covid19 india org).csv")
