@@ -30,6 +30,7 @@ state_df_update['As_Of_Date'] = as_of_date
 state_df_update['state_name'].replace('','Total',inplace=True)
 state_df_update['state_name'].replace('Telengana***','Telengana',inplace=True)
 state_df_update['state_name'].replace('Telengana','Telangana',inplace=True)
+state_df_update['state_name'].replace('Maharashtra***','Maharashtra',inplace=True)
 
 state_df_update.rename({'sno':'S_no', 'state_name':'State','new_positive':'Confirmed','new_cured':'Recovered','new_death':'Deaths'}, inplace=True, axis=1)
 
